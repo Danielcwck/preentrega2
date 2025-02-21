@@ -103,6 +103,10 @@ h2 {
     background-color: #fff;
 }
 
+.product-item:hover {
+    border: 2px solid #1259A5;  
+}
+
 .product-item img {
     max-width: 100%;
     border-radius: 8px;
