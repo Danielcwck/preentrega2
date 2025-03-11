@@ -1,0 +1,34 @@
+$primarycolor:#1259A5;
+$secundarycolor:#05472F;
+$thirdcolor:#CB672D;
+$lightblue:#007bff;
+$whitecolor: #fff;
+$softcolor: #ddd;
+$grayparrafo: #666;
+
+$fontmont: "Montserrat", serif;
+
+@mixin flexrowbetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin gridproducts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+@mixin flexcentercenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flexcolumncenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
